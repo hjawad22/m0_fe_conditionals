@@ -10,8 +10,8 @@ if (goodDrivingRecord === true && age > 25){
     console.log("you get a discount");
 } else if (goodDrivingRecord === true || age > 25){
     console.log("pay full price");
-} else (age <= 25 && goodDrivingRecord === false)
+} else {
     console.log("you need someone else to sign for you");
-
-
+}
+    
     
